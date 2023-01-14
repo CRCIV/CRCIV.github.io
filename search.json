@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "Research.html",
+    "href": "Research.html",
+    "title": "연구",
+    "section": "",
+    "text": "flowchart LR\n  subgraph 매개곤충 systems biology 연구부\n    direction LR\n    A([유전체\\n연 구]) <--> B([매개곤충\\n종다양성]) <--> C([생육 조사\\n기능유전자])\n    A --> C --> D\n    A --> D([화학감각수용체\\n동정 및 기능])\n  end\n  \n  subgraph IoT 기반 매개곤충 모니터링 연구부\n    direction LR\n    E([매개곤충\\n감지/분류\\n시스템]) <--> F([고속 광역\\n무선통신\\n실시간\\n데이터 공유]) \n    F <-.-> H\n    G <--> I([저차원 나노소재\\n센서 및 소자\\n개발]) <--> J([매개곤충\\n후각기능\\n매커니즘 연구])\n    G([매개곤충\\n후각기능모사\\n소자개발]) <--> H([고감도 W-BAN\\n초소형 안테나])\n    G <--> J\n  end\n   D --> G\n   B <--> E\n   D <-.-> J\n   \n   style A fill: #396,color: #FFF\n\n\n\n\n\n\n\n\n\n본 연구소는 주요 감염병 매개 곤충을 대상으로 다음과 같은 연구를 수행한다.\n\n유전체 연구를 통한 체계적인 동정법 확립\n행동생태학적 분석을 통한 문제점 분석\n유전체 연구를 통한 매개곤충의 궁극적인 문제점 해결\n화학감각(후각,미각등)에 관련된 수용체 기능 연구 및 이를 통한 기피제 유인제 기능성 생리활성 물질 발굴\n\n기존과는 다른 새롭고 궁극적인 방법의 선진화된 생물학적 기반연구를 진행\n매개곤충 관련 질병 및 사회적 문제들에 대한 신속한 대응 및 방제 연구 개발을 목표로 다음과 같은 기술을 개발한다.\n\n화학 감각수용체 가능을 모사한 전자코(혀) 응용 연구를 통한 실시간 모니터링 기술 개발\n딥러닝 기술을 이용한 조기진단 및 동정법 개발\n\n매개곤충의 체계적이고 융합적인연구로, 현재 문제가 되고 있는 매개 곤충 유래 문제점에 대한 연구기반 구축을 통한 국제적 수준의 연구소 발전 및 국제 기관과의 교류, 국제 허브 센터 확립"
+  },
+  {
+    "objectID": "Research.html#매개곤충-system-biology-연구부",
+    "href": "Research.html#매개곤충-system-biology-연구부",
+    "title": "연구",
+    "section": "매개곤충 system biology 연구부",
+    "text": "매개곤충 system biology 연구부\n\n질병 매개곤충 생물자원화: 매개곤충(모기) 무균사육법 확립/계통인증 연구\n▶ 현재 국내에서 연구되는 모기는 공식적으로 인정되는 모기, 즉 stock 센터에서 나오는 모기가 아니기 때문에 세계적 수준의 논문이나 연구결과를 산업화할 때 문제가 되고 있음\n▶ 현재 영국의 liverpool stock 이나, 미국 CDC에서 판매하고 있는 인증된 모기로 연구를 하는 추세이나, 현재 우리나라는 실험실에서 제대로 계대 배양된 라인이 없는 상황임\n▶ 개발단계별 목표 및 연구 내용(3단계)\n\n1단계: 국내외 질병매개모기 종을 수집하여 모기 종에 맞는 배양 기술을 수립 (아래 표에 자세히 기술)\n2단계: 모기 자원을 대량 생산할 수 있는 시스템을 구축\n3단계: 유전체 정보에 기반한 질병모기 종/자매종/형질전환모기 종에 대한 인증과정을 거쳐 연구자에게 분양할 수 있는 연구 사업을 진행\n\n\n\n질병매개곤충인 주요 모기종 유전체 DB 구축\n▶모기종의 알려진 유전체 정보들을 통합관리하는 데이터베이스 및 비교 유전체 분석이 가능한 웹기반 플랫폼 구축\n▶연구의 개요: - 모기 연구에 가장 많이 사용되는 VectorBase(www.vectorbase.org)의 경우 EMBL과의 협력을 통해서 Ensembl 기반의 플랫폼으로 모기 유전체 DB를 구축하고 운영하고 있음, 본 연구사업을 통해서 국내 생물정보 분석 및 DB전문가와 협력하여 Ensembl 기반의 모기 유전체 DB를 구축함\n▶연구개발 목표: - 모기종 유전체 정보를 통합관리하는 데이터베이스 및 비교유전체 분석을 위한 웹기반 플랫폼 구축 - 유전체 DB에 형태/정밀사진 등과 연동하여, 패턴인식 딥러닝 기술과 연동\n▶연구개발 범위:\n\n1단계: 질병매개 모기에 대한 유전체 정보를 체계적으로 관리할 데이터베이스를 구축\n\n국내 모기 개체군의 계통 분석 결과와 비교 ⟶ 하플로타입 결정\n기후 정보와 연계하여=종의 분포와 기후 및 지리적 상관관계 분석 / 전사체, 대사체 분석 가능한 데이터베이스 플랫폼 구축 및 개선\n\n2단계:\n\n모기 유전자에 대한 형질전환,\n모기의 감각수용 관련 유전체 기능 규명\n유전체 DB를 공개된 자료들과 통합하여 비교 분석이 가능한 플랫폼으로 개선\n모기가 매개하는 질병들의 병원체 DB 구축 및 연동\n\n3단계:\n\n대표적 유전자군 또는 대사경로에 대한 심화 분석, ◈매개 감염균 유전체 정보 분석\n매개곤충-병원균 상호작용 결과들을 저장하는 상호작용체 DB 구축\n모기의 대사 변화를 추적하여 매개 모기의 대사 조절 현상을 추적\n주요 매개곤충(모기) 유전체 DB 구축 (앙상불-Ensembl 기반 국제 표준 유전체 웹브라우저 구축): 모기종의 알려진 유전체 정보들을 통합관리하는 데이터베이스 및 비교 유전체 분석이 가능한 웹기반 플랫폼 구축 - 본 연구사업을 통해서 국내 생물정보분석 및 데이터베이스 전문가와 협력하여 Ensembl 기반의 모기 유전체 데이터베이스를 구축함\n\n\n\n\n매개곤충 주요 감각수용체 발굴 및 기능 연구 및 IoT접목 바이오센서 개발 생물소재 개발\n▶기능 유전체 분석을 통한 감각수용체의 발굴 및 기능 연구\n\n매개모기에서 기피물질 수용체 관련 gene 탐색\n국내 서식 모기 종의 전사체 분석을 통해 모기의 감각기관에서 발굴한 감각수용체 및 채널을 동정\n기피물질 수용체의 발현 양상 분석\n모기에서 기피물질의 정보인식 및 처리에 중요한 사실을 제공\n차후 발굴된 기능유전자를 이용한 형질전환 모기를 개발하여 모기 방제에도 이용"
+  },
+  {
+    "objectID": "Research.html#iot-기반-매개곤충-모니터링-연구부",
+    "href": "Research.html#iot-기반-매개곤충-모니터링-연구부",
+    "title": "연구",
+    "section": "IoT 기반 매개곤충 모니터링 연구부",
+    "text": "IoT 기반 매개곤충 모니터링 연구부\n\n매개곤충(모기 등) 후각관련 유전자 기능을 응용한 바이오센서 개발\n\nIoT 기술과 접목할 수 있는 센서기술 개발\n\nOn-site 모기 모니터링 기술을 위해 매개곤충 유래 다양한 가스/광 센서등의 개발\n다양한 가스/광 센서등의 개발에 요구되는 저차원 나노 소재(CNT, 전이금속할로겐)의 합성과 모기 수용체 기반의 고감도 센싱 재료의 공학적 구현\n고감도, 초저전력 센서 실장형 웨어러블 유연패치 개발 및 활용방안 모식도 - 모기 생체 모방형 고감도 웨어러블 센서 개발 및 활용 방안 모색: 실시간, 고속 정밀 진단\n\n\n\n\n\n모기 영상 데이터베이스 구축 및 자동 감지/분류 기술 개발\n▶모기관련 전문가가 수작업으로 하던 분류작업을 데이터 기반의 패턴 인식 기법인 CNN (convolutional neural network)을 활용한 딥러닝 기술로 자동 감지 및 분류. 데이터 중심의 딥러닝 기술은 개, 고양이, 자동차 등의 수천개의 사물을 분류함에 있어서 기존 특징공학적인 패턴 인식의 성능을 대폭 뛰어넘는 슈퍼휴먼 수준의 정확성을 보이고 있어, 모기 종의 분류에도 적용 가능할 것으로 예상됨.\n\nㅇ 모기 관련 영상 데이터베이스 구축 - VectorNet과 웹 이미지를 딥러닝 학습이 가능하도록 데이터베이스 구축 - 모기 분류(classification)를 위한 딥러닝 학습을 위하여 모기의 분류하고, 클래스별로 레이블링 작업 - 제한된 이미지로 딥러닝 학습효과를 높이기 위한 학습전이(transfer learning)와 데이터 보조(data augmentation)기법에 대한 연구 진행 ㅇ 모기 특화 딥러닝 모델 설계 - 모기의 특징을 추출하는데 특화될 수 있는 딥러닝 연산(필터) 및 모델 개발 - 매개 모기의 분류(classification)를 위한 딥러닝 모델 개발 - 매개 모기의 감지(detection)를 위한 딥러닝 모델 개발 - 분류의 정확성 (accuracy)과 감지의 정확성(mean aveage precision)을 동시에 향상시키기 위한 기술 개발 ㅇ 현장 감지를 위한 딥러닝 기술 최적화 - 현장에서 실시간 감지(detection)와 분류(classification)가 이루어지도록, 실시간성(real-time)과 저전력성(low-power) 확보 방안에 대한 연구 - 정확성을 손실을 최소화 하면서도 성능(fps/W)을 최대화하도록 임베디드 디바이스의 하드웨어(GPU/FPGA)와 SW수준 최적화에 대한 연구를 진행.\n\n\n매개곤충 대용량 정보의 공유 및 분석용 실시간 고속 및 광역 무선 통신 네트워크 구축\n\n매개곤충 실시간 대용량 정보 및 분석결과 정보의 네트워크와 인터페이싱\n\n인천광역시 관찰지정지역의 매개곤충 데이터의 전달 및 대용량 마이닝과 스크립팅(포매팅)\n매개곤충 데이터의 LoRA/WiFi 프로토콜에 정합시키는 작업 ㅇ 무선 광역망 고속통신 네트워크 기반 구축\n중점연구소, 유관기관(인천광역시, 농업진흥청, 질병관리본부, 행안부) 네트워크 설정\n관찰지점의 거리와 전송량과 속도 고려한 LoRA 무선통신장비와 망의 구축\nLoRA 무선통신망과 WiFi 무선통신망의 정합기술 확보\n\n실시간 모니터링\n\n아래 그림과 같은 장치를 통해 실시간으로 매개곤충 발생량과 종동정을 모니터링\n\n네트워크와 에지 컴퓨팅의 인터페이싱\n지역별, 기능영역별 통신망 게이트웨이 단위화 및 단위별 에지 컴퓨팅 영역 할당\n수집된 데이터의 에지 컴퓨팅에 적합한 데이터 에디팅\n\n에지 컴퓨팅과 클라우드 의 인터페이싱\n\n단위별 에지 컴퓨팅 대용량 정보의 클라우드 컴퓨팅의 섹터별 관리\n광역망에 매개곤충 정보를 확산시키기 위한 대형 데이터로 에디팅\n\n클라우드 및 에지 컴퓨팅 데이터의 공공망 및 이동통신 가입자로의 정보전달 기반구축\n\n해저드 맵 등의 재난/질병안내 서비스를 필요로 하는 공공망 파악 및 전달기법 구축\n이동통신사별 재난/질병안내 서비스 공유를 위한 기법 구축\n\n\n\n▶ 개발단계별 목표 및 연구 내용(3단계) - 1단계: 이를 이용한 바이오센서 응용 및 딥슬립 주기 동기화 알고리즘 개발 및 기존 후각센서 활용 센서 노드 개발 및 LoRa 지원 센서 연구 (아래 표에 상세 기술) - 2단계: 대량 감각 수용체의 초고속 스크리닝 구현, 매개곤충 대용량 정보의 공유, 실시간 고속 및 광역 무선 통신 네트워크 구축 - 3단계: 실시간 모니터링 데이터의 전파 및 네트워크 플랫폼 실현, 생물모방 바이오센서를 이용한 질병 및 매개체 감시 모니터링 실현"
+  },
+  {
+    "objectID": "index.html#뉴스",
+    "href": "index.html#뉴스",
+    "title": "",
+    "section": "뉴스",
+    "text": "뉴스\nCRCIV 관련 새 소식입니다.\n\n\n\n\n  \n\n\n\n\n환영해요! 올가 박사님!\n\n\n\n\n\n\n\n\n\n\n\nJan 15, 2023\n\n\n김병주\n\n\n\n\n\n\n  \n\n\n\n\n홈페이지 리뉴얼\n\n\n\n\n\n\n\n\n\n\n\nJan 14, 2023\n\n\n김병주\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#이벤트",
+    "href": "index.html#이벤트",
+    "title": "",
+    "section": "이벤트",
+    "text": "이벤트\nCRCIV 에서 진행하는 각종 이벤트를 공시합니다.\n\n\n\n\n\n\n\n\n\n\n마에스트로 강의 part #3\n\n\n\n\n\n\n김병주\n\n\nJan 15, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/강우철.html",
+    "href": "people/강우철.html",
+    "title": "강우철",
+    "section": "",
+    "text": "e-mail : bjc97r@inu.ac.kr\n전화번호 : 032-835-8765"
+  },
+  {
+    "objectID": "people/강우철.html#센터-내-연구분야",
+    "href": "people/강우철.html#센터-내-연구분야",
+    "title": "강우철",
+    "section": "센터 내 연구분야",
+    "text": "센터 내 연구분야\n\nDeep learning을 이용한 매개곤충 패턴인식"
+  },
+  {
+    "objectID": "people/강우철.html#주-연구분야",
+    "href": "people/강우철.html#주-연구분야",
+    "title": "강우철",
+    "section": "주 연구분야",
+    "text": "주 연구분야\n\n임베디드데이터베이스\n운영체제\n분산시스템"
+  },
+  {
+    "objectID": "People.html",
+    "href": "People.html",
+    "title": "People",
+    "section": "",
+    "text": "강동구\n\n\n\n매개곤충 systems biology 연구부\n\n\n화학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n강승택\n\n\n\nIoT 기반 매개곤충 모니터링 연구부\n\n\n정보통신학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n강우철\n\n\n\nIoT 기반 매개곤충 모니터링 연구부\n\n\n임베디드시스템공학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n권재성\n\n\n\nIoT 기반 매개곤충 모니터링 연구부\n\n\n기계공학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n권형욱\n\n\n\n매개곤충 systems biology 연구부\n\n\n생명과학부 생명과학전공\n\n\n센터장\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n김길원\n\n\n\n매개곤충 systems biology 연구부\n\n\n생명과학부 생명과학전공\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n김재광\n\n\n\n매개곤충 systems biology 연구부\n\n\n생명과학부 생명과학전공\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n배양섭\n\n\n\n매개곤충 systems biology 연구부\n\n\n생명과학부 생명과학전공\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n변상균\n\n\n\n매개곤충 systems biology 연구부\n\n\n생명과학부 생명과학전공\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n안순길\n\n\n\n매개곤충 systems biology 연구부\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n이종구\n\n\n\n매개곤충 systems biology 연구부\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n진성훈\n\n\n\nIoT 기반 매개곤충 모니터링 연구부\n\n\n전자공학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Publication.html#publication",
+    "href": "Publication.html#publication",
+    "title": "Center 소개",
+    "section": "Publication",
+    "text": "Publication\n\n\n     Xuan Zhan et al (2022) β-Bis-CF3-substituted phosphorus corroles, theory and experiments, inorganic chemistry frontiers, 9(13) https://doi.org/10.1039/D1QI01620B      Ullah, Z., Mustafa, B., Kim, H. J., Sheena Mary, Y., Shyma Mary, Y., & Kwon, H. W. (2022) DFT of 5-Fluoro-2-Oxo-1H-Pyrazine-3-Carboxamide (OPC) Adsorption, Spectroscopic, Solvent Effect, and SERS Analysis, Journal of Molecular liquids, 357 https://doi.org/10.1016/j.molliq.2022.119076      Zakir Ullah et al (2022) Selective detection of F- ion and SO2molecule: An experimental and DFT study, Journal of Molecular liquids, 359 https://doi.org/10.1016/j.molliq.2022.119329      Zakir Ullah et al (2022) DFT study of 6-amino-3-(1-hydroxyethyl) pyridine-2,4-diol (AHP) adsorption on Coronene, Journal of Molecular liquids, 360 https://doi.org/10.1016/j.molliq.2022.119436      Zakir Ullah et al (2022) Adsorption of Diospyrin on the surface of CC/AlN/AlP/GaN Nanotubes: A DFT investigation, Journal of Molecular liquids, 360 https://doi.org/10.1016/j.molliq.2022.119472      Zakir Ullah et al (2022) Computational study of furosemide-piperazine (FS – PZ) and 2,3,5,6-tetramethylpyrazine (FS-TP) co-crystals, Journal of Molecular liquids, 360 https://doi.org/10.1016/j.molliq.2022.119537      Zakir Ullah et al (2022) Computational study of Pd–Cd bimetallic crystals: Spectroscopic properties, hirshfeld surface analysis, non-covalent interaction, and sensor activity, Journal of Molecular liquids, 365(0) https://doi.org/10.1016/j.molliq.2022.120111      Zakir Ullah et al (2022) Computational study of toxic gas removal, Journal of Molecular liquids, 365(0) https://doi.org/10.1016/j.molliq.2022.120213      Zakir Ullah et al (2022) Insights into caffeine adsorption on the surface of corannulene: A sensor study, Journal of Molecular liquids, 368(0) https://doi.org/10.1016/j.molliq.2022.120592      Zakir Ullah et al (2022) Adsorption of Pyrimidin-2-amine (PA) on Graphene Quantum Dots (GQDs): Non-covalent Interaction Study, Journal of Molecular liquids, 368(0) https://doi.org/10.1016/j.molliq.2022.120654      Zakir Ullah et al (2021) Theoretical model study of adsorbed antimalarial-graphene dimers: doping effects, photophysical parameters, intermolecular interactions, edge adsorption, and SERS, Journal of Biomolecular Structure and Dynamics, 40(24) https://doi.org/10.1080/07391102.2021.1990129      Zakir Ullah et al (2022) A foundational theoreticalAl12E12(E = N, P) adsorption and quinolone docking study: cage–quinolone pairs, optics and possible therapeutic and diagnostic applications, Journal of Biomolecular Structure and Dynamics, 0(0) https://doi.org/10.1080/07391102.2022.2053742      Zakir Ullah et al (2023) Formation of Value-added Cyclic Carbonates by Coupling of Epoxides and CO2 by Ruthenium Pincer Hydrazone Complexes under Atmospheric Pressure, ACS Energy & Fuels, 0(0) https://doi.org/10.1021/cs300462r      Hyun Jee Kim et al (2022) Nutrition for Honey Bee to Prevent Colony Collapse, Journal of Apiculture, 37(4) 10.17519/apiculture.2022.11.37.4.397      Hyun Jee Kim et al (2022) Comparison of physicochemical properties of pollen substitute diet for honey bee (Apis mellifera), Journal of Asia-Pacific Entomology, 25(4) https://doi.org/10.1016/j.aspen.2022.101967      Ye Jun Seo et al (2022) A Chip Antenna for Bluetooth Earphones with Cross-Head Interference Tested from Received-Signal Sensing, SENSORS, 22(11) https://doi.org/10.3390/s22113969      Jaewon Kim et al (2021) Cre/Lox-based RMCE for site-specific integration in CHO cells, Biotechnology and Bioprocess Engineering, 10(11)  https://doi.org/10.1007/s12257-020-0332-y      Yun Haeng Lee et al (2021) Targeting mitochondrial metabolism as a strategy to treat senescence, Cells, 26(5) https://doi.org/10.3390/cells10113003      Ji Yun Park et al (2022) Bacterial artificial chromosome-based protein expression platform using the Tol2 transposon system, Biotechnology and Bioprocess Engineering, 4970(1) https://doi.org/10.1007/s12257-021-0222-y      ULZIIJARGAL BAYARSAIKHAN et al (2021) New record of Agrisius Walker (Lepidoptera, Erebidae, Arctiinae) from Cambodia, with description of a new species, Zootaxa, 4915(4) http://dx.doi.org/10.11646/zootaxa.4915.4.7      Yeong-Bin Cha et al (2022) Elucidation of the Taxonomy of Three Problematic East Asian Nola Leach, 1815, with Description of a New Species(Lepidoptera, Nolidae, Nolinae), Forests, 13(11) https://doi.org/10.3390/f13111881      ULZIIJARGAL BAYARSAIKHAN et al (2021) Two new species and four new records of Diduga (Lepidoptera, Erebidae, Arctiinae) from Laos, Zootaxa, 4970(1) https://doi.org/10.11646/zootaxa.4970.1.5      ULZIIJARGAL BAYARSAIKHAN et al (2021) Review of the genus Diduga Moore (Lepidoptera, Erebidae, Arctiinae) of Taiwan, with descriptions of two new species, Zootaxa, 5032(2) https://doi.org/10.11646/zootaxa.5032.2.3      ULZIIJARGAL BAYARSAIKHAN et al (2022) Review of the genus Pelosia Hübner (Lepidoptera: Noctuoidea: Erebidae: Arctiinae) in Korea with checklist of the known species, Journal of Asia-Pacific Biodiversity, 15(4) https://doi.org/10.1016/j.japb.2022.06.001      ULZIIJARGAL BAYARSAIKHAN et al (2022) A new Halone Walker (Lepidoptera, Erebidae, Arctiinae, Lithosiini) from Vietnam with establishing of a new combination, Zootaxa, 5093(3) https://doi.org/10.11646/zootaxa.5093.3.6      Yoon Ji Choi et al (2022) Bioelectronic Tongues Mimicking Insect Taste Systems for Real-Time Discrimination between Natural and Artificial Sweeteners, ACSSENSORS, 7(12) https://doi.org/10.1021/acssensors.2c01254"
+  },
+  {
+    "objectID": "Publication.html#academic-talks",
+    "href": "Publication.html#academic-talks",
+    "title": "Center 소개",
+    "section": "Academic Talks",
+    "text": "Academic Talks"
+  },
+  {
+    "objectID": "Publication.html#patents",
+    "href": "Publication.html#patents",
+    "title": "Center 소개",
+    "section": "Patents",
+    "text": "Patents"
+  },
+  {
+    "objectID": "about.html#총장-인사말",
+    "href": "about.html#총장-인사말",
+    "title": "Center 소개",
+    "section": "총장 인사말",
+    "text": "총장 인사말\n\n안녕하십니까 인천대학교 총장 조동성입니다. 인천대학교는 바이오중심으로 특성화해서 세계 100대 대학이 되기 위해 노력하고 있습니다. 그 중 하나가 매개곤충에 관한 연구입니다. 뛰어난 교수님들이 열정적으로 함꼐 뭉쳐서 모기와 꿀벌에 대한 질병매개체에 대한 체계적인 관리시스템을 구축하는 연구를 하고자합니다.\n앞으로 인천대학교는 매개곤충에 대한 연구를 가장 중요한 연구주제로 삼아 열심히 노력하고 대한민국을 대표하고 세계를 이끄는 그런 연구소가 되도록 하겠습니다. 감사합니다.\n인천대학교 총장 조 동 성"
+  },
+  {
+    "objectID": "about.html#센터장-인사말",
+    "href": "about.html#센터장-인사말",
+    "title": "Center 소개",
+    "section": "센터장 인사말",
+    "text": "센터장 인사말\n매개곤충자원융복합센터는 2016년 10월 설립하여, 모기와 꿀벌로 알려진 매개곤충자원에 대한 기초연구를 기반으로 원천기술을 창출하여 인프라를 구축함과 동시에 산업화를 주도하고, 교육기관으로써 교육과 국제협력에 이바지함으로써 세계적 수준의 연구소로 거듭나고자 합니다.\n\n매개곤충자원융복합센터는 매개곤충에 대한 생물학적 연구 뿐 아니라, ’융복합’적인 연구를 수행하기 위하여 각 분야의 우수한 연구진들로 구성되어 있습니다. 특히, 4차 산업 혁명에 발맞추어 기존의 NBIT (NT+BT+IT) 융합을 넘어 정보통신기술(ICT)과의 융합으로 매개 질병에 대한 보다 스마트한 범국가적인 안전망을 구축하고자 합니다.\n\n저희 매개곤충자원융복합센터는 매개곤충 연구에 대한 신념과 매개 질병으로부터 안전한 세계를 향한 목표를 갖고 연구개발 및 융·복합적 산업 발전에 기여 할 것이며, 대한민국을 넘어 세계적인 연구기관이 되겠습니다.\n\n보건복지부 질병관리본부 지정\n권역별 기후변화 매개체 감시 거점센터 (수도 2권) 센터장\n매개곤충자원융복합연구센터 센터장                        권형욱"
+  },
+  {
+    "objectID": "about.html#설립취지",
+    "href": "about.html#설립취지",
+    "title": "Center 소개",
+    "section": "설립취지",
+    "text": "설립취지\n\n1. 기후변화와 여러 요인으로 인한 매개질병의 창궐 (질병매개곤충의 outbreak 요인)\n▶기후변화로 인한 각종 외래 질병매개체(모기, 개미, 진드기 등의 위생관련 해충) 유입\n\n전 세계적으로 기온이 지속적으로 증가하고 있으며, 1930년대와 2015년을 비교를 해도 평균 기온이 최소 2℃, 최대 8℃ 이상까지 상승함\n기온이 올라갈수록 모기의 활동기간이 변화하며, 또한 평균 활동기간이 증가함, 따라서 기온변화에 따른 모기이동에 대한 역학조사가 필요함\n\n\n\n\n2. 국내 말라리아 및 매개질병 환자 분포 (인천 및 수도권북부: 본 연구소의 매개체감시 지역: 수도2권\n\n따라서 인천을 포함하는 수도권 지역에서의 질병매개 모기의 모니터링 및 조기경보시스템 도입이 요구됨\n기존 모니터링 방식은 현장에서 모기를 채취, 개별적 선별 (manual 방식) 분류 하는 방식을 취함.\n\n실시간 모니터링이 불가능하며, 인적 비용적 손실 ㅇ 뇌염, 뎅기열, 쯔쯔가무시병 등 법정 전염병이 매개곤충의 유입 및 대발생으로 증가 추세에 있음\n\n\n\n\n3. 융복합 질병매개곤충 연구의 경제적·산업적 가치 및 대학연구소 집중연구의 필요성\n▶질병매개 모기 종의 안정적이고 효율적인 모니터링 기술 개발의 필요성 증대되고 있음\n\n기존 방식은 현장에서 모기를 채취, 개별적 선별 (manual 방식) 분류 하는 방식을 취함: 실시간 모니터링이 불가능하며, 물적, 인적 비용적 손실은 물론, 실시간 모니터링이 불가함 (아래그림)\n해외 선진국에서는 기후변화에 대응하여 매개곤충에 대한 집중적인 연구투자가 이루어지고 있으나(빌게이츠재단, 미보건성, CDC, GCF, WHO 등 세계, 정부, 민간기구 등), 우리나라는 고급인력과 연구를 해야 할 대학에서 이런 연구 인프라가 없는 상황임. 이것의 주요원인은 우리나라의 매개곤충을 연구할 facility가 부족함 (ACL2+이상의 곤충밀패연구시설이 필요함)\n이런 이유로 유전체 연구를 통한 계통확립, 무균상태 대량사육기술개발, 밀패시설 (증빙 Ⅴ-1, 절지동물사육시설 기준 참조: ACL1~4단계 시설 중 ACL2+정도의 시설이 반드시 필요함\n\n\n\n4. IoT연구의 도입 배경 및 연구가설의 도출 근거\n\nIoT망에 놓인 다중의 센서들로부터 수집한 매개곤충의 특징을 전산화 할 수 있으면 반영구적 보관뿐 아니라 과학적 분석과 판단이 가능해 짐.\n매개곤충의 특징 데이터를, 보건 및 의료행정기관은 물론 국민에 IoT를 목표로하는 LoRa/WiFi 통신망을 통해 전달할 수 있어 대비와 피해확산 방지에 효과적으로 대처할 수 있음\n\n\n\n\n5. 매개곤충 기능유전자 연구 및 감각수용체를 이용한 바이오센서 연구\n\n본 연구는 국내 주요 질병매개모기의 후각관련 수용체 유전자의 기능을 밝혀 바이오센서로 응용하고, 또한 이러한 것을 IoT기술과 접목하여, 더 효율적인 모기방제를 위한 중요한 연구과제임\n\n\n\n6. 매개곤충 유전체 DB구축과 IoT융합연구의 연계성 및 필요성\n\n유전체 DB는 IoT망 콘텐츠와 활용의 가치를 높이고, 보건과 질병관리에 도움이 됨.\n매개곤충의 이동경로와 상황을 IoT망에 넣어 실시간 추적이 가능하게 함.\n\n\n7. 건강한 삶을 위한 질병매개곤충 자동인식 및 안전망 구축의 필요성 및 중요성\n\n1999년 미국 뉴욕에서 웨스트나일바이러스가 처음 발견된 후 수많은 사상자가 발생했고, 순식간에 미국 전역으로 퍼져나간 케이스가 있으며, 이러한 것은 현재 미국 질병통제센터(CDC)에서 매년 보고하고 있음(https://www.cdc.gov/mmwr/preview/mmwrhtml/mm4838a1.htm).\n\n\n\n8. 연구의 차별성 및 국립 인천대학교 대학연구소로서의 강점\n\n매개곤충의 연구분야 및 현재 국내외 곤충 매개질병의 빈번한 발생에도 불구하고 매개곤충을 자원화하고 인프라를 구축하여 체계적으로 연구 및 새로운 융합기술을 개발하는 국내 유일의 융합 연구팀임"
+  },
+  {
+    "objectID": "about.html#vision",
+    "href": "about.html#vision",
+    "title": "Center 소개",
+    "section": "Vision",
+    "text": "Vision"
+  },
+  {
+    "objectID": "about.html#센터-파급효과",
+    "href": "about.html#센터-파급효과",
+    "title": "Center 소개",
+    "section": "센터 파급효과",
+    "text": "센터 파급효과"
+  },
+  {
+    "objectID": "about.html#센터-연혁",
+    "href": "about.html#센터-연혁",
+    "title": "Center 소개",
+    "section": "센터 연혁",
+    "text": "센터 연혁"
+  }
+]

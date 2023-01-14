@@ -1,0 +1,27 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/news/post-with-code/index.html",
+      "/news/welcome/index.html",
+      "/events/Maestro_part3/index.html"
+    ]
+  },
+  {
+    "listing": "/People.html",
+    "items": [
+      "/people/강동구.html",
+      "/people/강승택.html",
+      "/people/강우철.html",
+      "/people/권재성.html",
+      "/people/권형욱.html",
+      "/people/김길원.html",
+      "/people/김재광.html",
+      "/people/배양섭.html",
+      "/people/변상균.html",
+      "/people/안순길.html",
+      "/people/이종구.html",
+      "/people/진성훈.html"
+    ]
+  }
+]

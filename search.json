@@ -18,14 +18,14 @@
     "href": "Research.html#iot-기반-매개곤충-모니터링-연구부",
     "title": "연구",
     "section": "IoT 기반 매개곤충 모니터링 연구부",
-    "text": "IoT 기반 매개곤충 모니터링 연구부\n\n매개곤충(모기 등) 후각관련 유전자 기능을 응용한 바이오센서 개발\n\nIoT 기술과 접목할 수 있는 센서기술 개발\n\nOn-site 모기 모니터링 기술을 위해 매개곤충 유래 다양한 가스/광 센서등의 개발\n다양한 가스/광 센서등의 개발에 요구되는 저차원 나노 소재(CNT, 전이금속할로겐)의 합성과 모기 수용체 기반의 고감도 센싱 재료의 공학적 구현\n고감도, 초저전력 센서 실장형 웨어러블 유연패치 개발 및 활용방안 모식도 - 모기 생체 모방형 고감도 웨어러블 센서 개발 및 활용 방안 모색: 실시간, 고속 정밀 진단\n\n\n\n\n\n모기 영상 데이터베이스 구축 및 자동 감지/분류 기술 개발\n▶모기관련 전문가가 수작업으로 하던 분류작업을 데이터 기반의 패턴 인식 기법인 CNN (convolutional neural network)을 활용한 딥러닝 기술로 자동 감지 및 분류. 데이터 중심의 딥러닝 기술은 개, 고양이, 자동차 등의 수천개의 사물을 분류함에 있어서 기존 특징공학적인 패턴 인식의 성능을 대폭 뛰어넘는 슈퍼휴먼 수준의 정확성을 보이고 있어, 모기 종의 분류에도 적용 가능할 것으로 예상됨.\n\nㅇ 모기 관련 영상 데이터베이스 구축 - VectorNet과 웹 이미지를 딥러닝 학습이 가능하도록 데이터베이스 구축 - 모기 분류(classification)를 위한 딥러닝 학습을 위하여 모기의 분류하고, 클래스별로 레이블링 작업 - 제한된 이미지로 딥러닝 학습효과를 높이기 위한 학습전이(transfer learning)와 데이터 보조(data augmentation)기법에 대한 연구 진행 ㅇ 모기 특화 딥러닝 모델 설계 - 모기의 특징을 추출하는데 특화될 수 있는 딥러닝 연산(필터) 및 모델 개발 - 매개 모기의 분류(classification)를 위한 딥러닝 모델 개발 - 매개 모기의 감지(detection)를 위한 딥러닝 모델 개발 - 분류의 정확성 (accuracy)과 감지의 정확성(mean aveage precision)을 동시에 향상시키기 위한 기술 개발 ㅇ 현장 감지를 위한 딥러닝 기술 최적화 - 현장에서 실시간 감지(detection)와 분류(classification)가 이루어지도록, 실시간성(real-time)과 저전력성(low-power) 확보 방안에 대한 연구 - 정확성을 손실을 최소화 하면서도 성능(fps/W)을 최대화하도록 임베디드 디바이스의 하드웨어(GPU/FPGA)와 SW수준 최적화에 대한 연구를 진행.\n\n\n매개곤충 대용량 정보의 공유 및 분석용 실시간 고속 및 광역 무선 통신 네트워크 구축\n\n매개곤충 실시간 대용량 정보 및 분석결과 정보의 네트워크와 인터페이싱\n\n인천광역시 관찰지정지역의 매개곤충 데이터의 전달 및 대용량 마이닝과 스크립팅(포매팅)\n매개곤충 데이터의 LoRA/WiFi 프로토콜에 정합시키는 작업 ㅇ 무선 광역망 고속통신 네트워크 기반 구축\n중점연구소, 유관기관(인천광역시, 농업진흥청, 질병관리본부, 행안부) 네트워크 설정\n관찰지점의 거리와 전송량과 속도 고려한 LoRA 무선통신장비와 망의 구축\nLoRA 무선통신망과 WiFi 무선통신망의 정합기술 확보\n\n실시간 모니터링\n\n아래 그림과 같은 장치를 통해 실시간으로 매개곤충 발생량과 종동정을 모니터링\n\n네트워크와 에지 컴퓨팅의 인터페이싱\n지역별, 기능영역별 통신망 게이트웨이 단위화 및 단위별 에지 컴퓨팅 영역 할당\n수집된 데이터의 에지 컴퓨팅에 적합한 데이터 에디팅\n\n에지 컴퓨팅과 클라우드 의 인터페이싱\n\n단위별 에지 컴퓨팅 대용량 정보의 클라우드 컴퓨팅의 섹터별 관리\n광역망에 매개곤충 정보를 확산시키기 위한 대형 데이터로 에디팅\n\n클라우드 및 에지 컴퓨팅 데이터의 공공망 및 이동통신 가입자로의 정보전달 기반구축\n\n해저드 맵 등의 재난/질병안내 서비스를 필요로 하는 공공망 파악 및 전달기법 구축\n이동통신사별 재난/질병안내 서비스 공유를 위한 기법 구축\n\n\n\n▶ 개발단계별 목표 및 연구 내용(3단계) - 1단계: 이를 이용한 바이오센서 응용 및 딥슬립 주기 동기화 알고리즘 개발 및 기존 후각센서 활용 센서 노드 개발 및 LoRa 지원 센서 연구 (아래 표에 상세 기술) - 2단계: 대량 감각 수용체의 초고속 스크리닝 구현, 매개곤충 대용량 정보의 공유, 실시간 고속 및 광역 무선 통신 네트워크 구축 - 3단계: 실시간 모니터링 데이터의 전파 및 네트워크 플랫폼 실현, 생물모방 바이오센서를 이용한 질병 및 매개체 감시 모니터링 실현"
+    "text": "IoT 기반 매개곤충 모니터링 연구부\n\n매개곤충(모기 등) 후각관련 유전자 기능을 응용한 바이오센서 개발\n\nIoT 기술과 접목할 수 있는 센서기술 개발\n\nOn-site 모기 모니터링 기술을 위해 매개곤충 유래 다양한 가스/광 센서등의 개발\n다양한 가스/광 센서등의 개발에 요구되는 저차원 나노 소재(CNT, 전이금속할로겐)의 합성과 모기 수용체 기반의 고감도 센싱 재료의 공학적 구현\n고감도, 초저전력 센서 실장형 웨어러블 유연패치 개발 및 활용방안 모식도 - 모기 생체 모방형 고감도 웨어러블 센서 개발 및 활용 방안 모색: 실시간, 고속 정밀 진단\n\n\n\n\n\n모기 영상 데이터베이스 구축 및 자동 감지/분류 기술 개발\n\n모기관련 전문가가 수작업으로 하던 분류작업을 데이터 기반의 패턴 인식 기법인 CNN (convolutional neural network)을 활용한 딥러닝 기술로 자동 감지 및 분류. 데이터 중심의 딥러닝 기술은 개, 고양이, 자동차 등의 수천개의 사물을 분류함에 있어서 기존 특징공학적인 패턴 인식의 성능을 대폭 뛰어넘는 슈퍼휴먼 수준의 정확성을 보이고 있어, 모기 종의 분류에도 적용 가능할 것으로 예상됨.\n\n\n\n모기 관련 영상 데이터베이스 구축\nVectorNet과 웹 이미지를 딥러닝 학습이 가능하도록 데이터베이스 구축 - 모기 분류(classification)를 위한 딥러닝 학습을 위하여 모기의 분류하고, 클래스별로 레이블링 작업\n제한된 이미지로 딥러닝 학습효과를 높이기 위한 학습전이(transfer learning)와 데이터 보조(data augmentation)기법에 대한 연구 진행 ㅇ 모기 특화 딥러닝 모델 설계\n모기의 특징을 추출하는데 특화될 수 있는 딥러닝 연산(필터) 및 모델 개발\n매개 모기의 분류(classification)를 위한 딥러닝 모델 개발\n매개 모기의 감지(detection)를 위한 딥러닝 모델 개발\n분류의 정확성 (accuracy)과 감지의 정확성(mean aveage precision)을 동시에 향상시키기 위한 기술 개발 ㅇ 현장 감지를 위한 딥러닝 기술 최적화\n현장에서 실시간 감지(detection)와 분류(classification)가 이루어지도록, 실시간성(real-time)과 저전력성(low-power) 확보 방안에 대한 연구\n정확성을 손실을 최소화 하면서도 성능(fps/W)을 최대화하도록 임베디드 디바이스의 하드웨어(GPU/FPGA)와 SW수준 최적화에 대한 연구를 진행.\n\n\n\n매개곤충 대용량 정보의 공유 및 분석용 실시간 고속 및 광역 무선 통신 네트워크 구축\n\n매개곤충 실시간 대용량 정보 및 분석결과 정보의 네트워크와 인터페이싱\n\n인천광역시 관찰지정지역의 매개곤충 데이터의 전달 및 대용량 마이닝과 스크립팅(포매팅)\n매개곤충 데이터의 LoRA/WiFi 프로토콜에 정합시키는 작업 ㅇ 무선 광역망 고속통신 네트워크 기반 구축\n중점연구소, 유관기관(인천광역시, 농업진흥청, 질병관리본부, 행안부) 네트워크 설정\n관찰지점의 거리와 전송량과 속도 고려한 LoRA 무선통신장비와 망의 구축\nLoRA 무선통신망과 WiFi 무선통신망의 정합기술 확보\n\n실시간 모니터링\n\n아래 그림과 같은 장치를 통해 실시간으로 매개곤충 발생량과 종동정을 모니터링\n\n네트워크와 에지 컴퓨팅의 인터페이싱\n지역별, 기능영역별 통신망 게이트웨이 단위화 및 단위별 에지 컴퓨팅 영역 할당\n수집된 데이터의 에지 컴퓨팅에 적합한 데이터 에디팅\n\n에지 컴퓨팅과 클라우드 의 인터페이싱\n\n단위별 에지 컴퓨팅 대용량 정보의 클라우드 컴퓨팅의 섹터별 관리\n광역망에 매개곤충 정보를 확산시키기 위한 대형 데이터로 에디팅\n\n클라우드 및 에지 컴퓨팅 데이터의 공공망 및 이동통신 가입자로의 정보전달 기반구축\n\n해저드 맵 등의 재난/질병안내 서비스를 필요로 하는 공공망 파악 및 전달기법 구축\n이동통신사별 재난/질병안내 서비스 공유를 위한 기법 구축\n\n\n\n▶ 개발단계별 목표 및 연구 내용(3단계) - 1단계: 이를 이용한 바이오센서 응용 및 딥슬립 주기 동기화 알고리즘 개발 및 기존 후각센서 활용 센서 노드 개발 및 LoRa 지원 센서 연구 (아래 표에 상세 기술) - 2단계: 대량 감각 수용체의 초고속 스크리닝 구현, 매개곤충 대용량 정보의 공유, 실시간 고속 및 광역 무선 통신 네트워크 구축 - 3단계: 실시간 모니터링 데이터의 전파 및 네트워크 플랫폼 실현, 생물모방 바이오센서를 이용한 질병 및 매개체 감시 모니터링 실현"
   },
   {
-    "objectID": "Contact.html",
-    "href": "Contact.html",
+    "objectID": "Contact.html#찾아오시는-길",
+    "href": "Contact.html#찾아오시는-길",
     "title": "Center 소개",
-    "section": "",
-    "text": "인천광역시 연수구 아카데미로 119 (송도동, 인천대학교) 29호관 315호"
+    "section": "찾아오시는 길",
+    "text": "찾아오시는 길\n인천광역시 연수구 아카데미로 119 (송도동, 인천대학교) 29호관 315호"
   },
   {
     "objectID": "Publication.html#publication",
@@ -49,25 +49,81 @@
     "text": "Patents"
   },
   {
-    "objectID": "images/최병조.html",
-    "href": "images/최병조.html",
-    "title": "최병조",
+    "objectID": "Events.html",
+    "href": "Events.html",
+    "title": "이벤트",
     "section": "",
-    "text": "e-mail : bjc97r@inu.ac.kr\n전화번호 : 032-835-8765"
+    "text": "Git, R Markdown, and Reproducible Research\n\n\n\n\n\n\n\n\n\n\n\n\nJan 27, 2023\n\n\n김병주\n\n\n\n\n\n\n  \n\n\n\n\n마에스트로 강의 part #3\n\n\n\n\n\n\n\n\n\n\n\n\nJan 15, 2023\n\n\n김병주\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "images/최병조.html#센터-내-연구분야",
-    "href": "images/최병조.html#센터-내-연구분야",
-    "title": "최병조",
-    "section": "센터 내 연구분야",
-    "text": "센터 내 연구분야\n\nphotosensor를 이용한 질병매개체 동정법 연구\nsonic 기반 분류 및 동영상/sound 해석"
+    "objectID": "Education/R+Markdown/index.html#introduction",
+    "href": "Education/R+Markdown/index.html#introduction",
+    "title": "Blogging & Web publishing with R and github",
+    "section": "Introduction",
+    "text": "Introduction"
   },
   {
-    "objectID": "images/최병조.html#주-연구분야",
-    "href": "images/최병조.html#주-연구분야",
-    "title": "최병조",
-    "section": "주 연구분야",
-    "text": "주 연구분야\n\nOFDM, MC-CDMA, Adaptive modulation"
+    "objectID": "Education/R+Markdown/index.html#requirements",
+    "href": "Education/R+Markdown/index.html#requirements",
+    "title": "Blogging & Web publishing with R and github",
+    "section": "Requirements",
+    "text": "Requirements\n\nInstalling R\n\nR studio\nLeaflet\n\nQuarto\ngit"
+  },
+  {
+    "objectID": "Education/R+Markdown/index.html#todays-topic",
+    "href": "Education/R+Markdown/index.html#todays-topic",
+    "title": "Blogging & Web publishing with R and github",
+    "section": "Today’s Topic",
+    "text": "Today’s Topic\n\n\n\n\nflowchart LR\n  A[installing requirements] ---> B[Document preparation] ---> C[github pages] --> D[Web]\n  \n  \n\n\n\n\n\n\n\n\n\nWe do not handle the installing in the lecture."
+  },
+  {
+    "objectID": "Education/R+Markdown/index.html#r-studio",
+    "href": "Education/R+Markdown/index.html#r-studio",
+    "title": "Blogging & Web publishing with R and github",
+    "section": "R studio",
+    "text": "R studio"
+  },
+  {
+    "objectID": "Education/R+Markdown/index.html#r-markdown",
+    "href": "Education/R+Markdown/index.html#r-markdown",
+    "title": "Blogging & Web publishing with R and github",
+    "section": "R markdown",
+    "text": "R markdown\nBJK’s self-reference cheat sheat for Rmarkdown"
+  },
+  {
+    "objectID": "Education/R+Markdown/index.html#leaflet",
+    "href": "Education/R+Markdown/index.html#leaflet",
+    "title": "Blogging & Web publishing with R and github",
+    "section": "Leaflet",
+    "text": "Leaflet"
+  },
+  {
+    "objectID": "Education/R+Markdown/index.html#what-is-r",
+    "href": "Education/R+Markdown/index.html#what-is-r",
+    "title": "Blogging & Web publishing with R and github",
+    "section": "What is R ?",
+    "text": "What is R ?"
+  },
+  {
+    "objectID": "Education/R+Markdown/index.html#what-is-r-ma",
+    "href": "Education/R+Markdown/index.html#what-is-r-ma",
+    "title": "Blogging & Web publishing with R and github",
+    "section": "What is R Ma",
+    "text": "What is R Ma"
+  },
+  {
+    "objectID": "Education/R+Markdown/index.html#git",
+    "href": "Education/R+Markdown/index.html#git",
+    "title": "Blogging & Web publishing with R and github",
+    "section": "Git",
+    "text": "Git"
+  },
+  {
+    "objectID": "Education/R+Markdown/index.html#github-pages",
+    "href": "Education/R+Markdown/index.html#github-pages",
+    "title": "Blogging & Web publishing with R and github",
+    "section": "Github pages",
+    "text": "Github pages"
   },
   {
     "objectID": "index.html#뉴스",
@@ -81,7 +137,7 @@
     "href": "index.html#이벤트",
     "title": "",
     "section": "이벤트",
-    "text": "이벤트\nCRCIV 에서 진행하는 각종 이벤트를 공시합니다.\n\n\n\n\n\n\n\n\n\n\n마에스트로 강의 part #3\n\n\n\n\n\n\n김병주\n\n\nJan 15, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "이벤트\nCRCIV 에서 진행하는 각종 이벤트를 공시합니다.\n\n\n\n\n\n\n\n\n\n\nGit, R Markdown, and Reproducible Research\n\n\n\n\n\n\n김병주\n\n\nJan 27, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n마에스트로 강의 part #3\n\n\n\n\n\n\n김병주\n\n\nJan 15, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html#총장-인사말",
@@ -144,265 +200,279 @@
     "href": "news/post-with-code/index.html#career",
     "title": "환영해요! 올가 박사님!",
     "section": "Career",
-    "text": "Career"
-  },
-  {
-    "objectID": "news/post-with-code/index.html#publication",
-    "href": "news/post-with-code/index.html#publication",
-    "title": "환영해요! 올가 박사님!",
-    "section": "Publication",
-    "text": "Publication"
+    "text": "Career\n\nPost Doc Researcher\nNational Institute of Agricultural Science, Republic of Korea\n2022 - 2022\n\nBee breeding of A. cerana\n\nResearcher\nStone Town Company\n2019 - 2020\nTeacher\nQuantorium Technopar\n2017 - 2020\nProject Manager\nPryanishnikov Perm State Agrarian and Technological University\n2015-2020\nTeacher\nGymnasium N7\n2015-2020."
   },
   {
     "objectID": "news/welcome/index.html",
     "href": "news/welcome/index.html",
     "title": "홈페이지 리뉴얼",
     "section": "",
-    "text": "안녕하세요, 2023년 계묘년을 맞이하여, 홈페이지가 리뉴얼되었습니다.\n올 한해도 다들 열심히 일해서 좋은 성과를 낼 수 있었으면 합니다.\n현 홈페이지는 다음과 같은 툴/환경으로로 제작되었습니다.\n\nR/Rmarkdown/Quarto\ngithub pages\ncustom css\njolla theme\n\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "안녕하세요, 2023년 계묘년을 맞이하여, 홈페이지가 리뉴얼되었습니다.\n올 한해도 다들 열심히 일해서 좋은 성과를 낼 수 있었으면 합니다.\n현 홈페이지는 다음과 같은 툴/환경으로로 제작되었습니다.\n\nR/Rmarkdown/Quarto\ngithub pages\ncustom css\njolla theme"
   },
   {
     "objectID": "People.html",
     "href": "People.html",
     "title": "People",
     "section": "",
-    "text": "강동구\n\n\n\n매개곤충 systems biology 연구부\n\n\n화학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n강승택\n\n\n\nIoT 기반 매개곤충 모니터링 연구부\n\n\n정보통신학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n강우철\n\n\n\nIoT 기반 매개곤충 모니터링 연구부\n\n\n임베디드시스템공학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n권재성\n\n\n\nIoT 기반 매개곤충 모니터링 연구부\n\n\n기계공학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n권형욱\n\n\n\n매개곤충 systems biology 연구부\n\n\n생명과학부 생명과학전공\n\n\n센터장\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n김길원\n\n\n\n매개곤충 systems biology 연구부\n\n\n생명과학부 생명과학전공\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n김재광\n\n\n\n매개곤충 systems biology 연구부\n\n\n생명과학부 생명과학전공\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n배양섭\n\n\n\n매개곤충 systems biology 연구부\n\n\n생명과학부 생명과학전공\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n변상균\n\n\n\n매개곤충 systems biology 연구부\n\n\n생명과학부 생명과학전공\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n안순길\n\n\n\n매개곤충 systems biology 연구부\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n이종구\n\n\n\n매개곤충 systems biology 연구부\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n진성훈\n\n\n\nIoT 기반 매개곤충 모니터링 연구부\n\n\n전자공학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "강동구\n\n\n\n매개곤충 systems biology 연구부\n\n\n화학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n강승택\n\n\n\nIoT 기반 매개곤충 모니터링 연구부\n\n\n정보통신학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n강우철\n\n\n\nIoT 기반 매개곤충 모니터링 연구부\n\n\n임베디드시스템공학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n권재성\n\n\n\nIoT 기반 매개곤충 모니터링 연구부\n\n\n기계공학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n권형욱\n\n\n\n매개곤충 systems biology 연구부\n\n\n생명과학부 생명과학전공\n\n\n센터장\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n김길원\n\n\n\n매개곤충 systems biology 연구부\n\n\n생명과학부 생명과학전공\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n김재광\n\n\n\n매개곤충 systems biology 연구부\n\n\n생명과학부 생명과학전공\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n배양섭\n\n\n\n매개곤충 systems biology 연구부\n\n\n생명과학부 생명과학전공\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n변상균\n\n\n\n매개곤충 systems biology 연구부\n\n\n생명과학부 생명과학전공\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n안순길\n\n\n\n매개곤충 systems biology 연구부\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n이종구\n\n\n\n매개곤충 systems biology 연구부\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n진성훈\n\n\n\nIoT 기반 매개곤충 모니터링 연구부\n\n\n전자공학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n최병조\n\n\n\nIoT 기반 매개곤충 모니터링 연구부\n\n\n임베디드시스템공학과\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "people/김재광.html",
-    "href": "people/김재광.html",
-    "title": "김재광",
-    "section": "",
-    "text": "e-mail : kjkpj@inu.ac.kr\n전화번호 : 032-835-8241\nHomepage : http://kjkpj2.wixsite.com/plant-metabolism"
-  },
-  {
-    "objectID": "people/김재광.html#센터-내-연구분야",
-    "href": "people/김재광.html#센터-내-연구분야",
-    "title": "김재광",
-    "section": "센터 내 연구분야",
-    "text": "센터 내 연구분야\n\n매개곤충의 대사체 분석"
-  },
-  {
-    "objectID": "people/김재광.html#전공분야",
-    "href": "people/김재광.html#전공분야",
-    "title": "김재광",
-    "section": "전공분야",
-    "text": "전공분야\n\n대사체학"
-  },
-  {
-    "objectID": "people/강승택.html",
-    "href": "people/강승택.html",
-    "title": "강승택",
-    "section": "",
-    "text": "e-mail : s-kahng@inu.ac.kr\n전화번호 : 032-835-8288\nhompage"
-  },
-  {
-    "objectID": "people/강승택.html#센터-내-연구분야",
-    "href": "people/강승택.html#센터-내-연구분야",
-    "title": "강승택",
-    "section": "센터 내 연구분야",
-    "text": "센터 내 연구분야\n\nIoT 및 광역망 통신 시스템"
-  },
-  {
-    "objectID": "people/강승택.html#주-연구분야",
-    "href": "people/강승택.html#주-연구분야",
-    "title": "강승택",
-    "section": "주 연구분야",
-    "text": "주 연구분야\n\n전파공학 및 무선통신"
-  },
-  {
-    "objectID": "people/변상균.html",
-    "href": "people/변상균.html",
-    "title": "변상균",
-    "section": "",
-    "text": "e-mail : sbyun@inu.ac.kr\n전화번호 : 032-835-8033\nHomepage : https://byunlab.wixsite.com/cglab"
-  },
-  {
-    "objectID": "people/변상균.html#센터-내-연구분야",
-    "href": "people/변상균.html#센터-내-연구분야",
-    "title": "변상균",
-    "section": "센터 내 연구분야",
-    "text": "센터 내 연구분야\n\n매개곤충 기능성 물질 소재 연구"
-  },
-  {
-    "objectID": "people/변상균.html#전공분야",
-    "href": "people/변상균.html#전공분야",
-    "title": "변상균",
-    "section": "전공분야",
-    "text": "전공분야\n\n생리활성 기능성 식품소재 연구"
-  },
-  {
-    "objectID": "people/권재성.html",
-    "href": "people/권재성.html",
-    "title": "권재성",
-    "section": "",
-    "text": "email: jsungkwon@inu.ac.kr\nphone: +82-32-835-8097"
-  },
-  {
-    "objectID": "people/권재성.html#센터-내-연구분야",
-    "href": "people/권재성.html#센터-내-연구분야",
-    "title": "권재성",
-    "section": "센터 내 연구분야",
-    "text": "센터 내 연구분야"
-  },
-  {
-    "objectID": "people/권재성.html#전공분야",
-    "href": "people/권재성.html#전공분야",
-    "title": "권재성",
-    "section": "전공분야",
-    "text": "전공분야"
-  },
-  {
-    "objectID": "people/이종구.html#생명과학부-생명과학전공",
-    "href": "people/이종구.html#생명과학부-생명과학전공",
+    "objectID": "people/05_Prof.LJK.html#생명과학부-생명과학전공",
+    "href": "people/05_Prof.LJK.html#생명과학부-생명과학전공",
     "title": "이종구",
     "section": "생명과학부 생명과학전공",
     "text": "생명과학부 생명과학전공\n전공분야 : 생태정보, 생태모델링, 조류 포유류학\n센터 내 연구분야 : 병원체-매개체 생태 모델링 연구\ne-mail : jklee@inu.ac.kr 전화번호 : 032-835-8895 Homepage : -"
   },
   {
-    "objectID": "people/진성훈.html#센터-내-연구분야",
-    "href": "people/진성훈.html#센터-내-연구분야",
-    "title": "진성훈",
-    "section": "센터 내 연구분야",
-    "text": "센터 내 연구분야\n\nMicrofluidics 기반\n질병매개체 조기진단법 연구"
-  },
-  {
-    "objectID": "people/진성훈.html#주-연구분야",
-    "href": "people/진성훈.html#주-연구분야",
-    "title": "진성훈",
-    "section": "주 연구분야",
-    "text": "주 연구분야\n\nGas sensor\n센서소재 개발\n\ne-mail : shjin@inu.ac.kr 전화번호 : 032-835-8865 Homepage : http://hmdl.incheon.ac.kr/"
-  },
-  {
-    "objectID": "people/안순길.html#생명과학부-생명과학전공",
-    "href": "people/안순길.html#생명과학부-생명과학전공",
-    "title": "안순길",
-    "section": "생명과학부 생명과학전공",
-    "text": "생명과학부 생명과학전공\n센터 내 연구분야 : 매개체 유인제/기피제 개발 및 표준화"
-  },
-  {
-    "objectID": "people/권형욱.html",
-    "href": "people/권형욱.html",
-    "title": "권형욱",
-    "section": "",
-    "text": "e-mail : hwkwon@inu.ac.kr\n전화번호 : 032-835-8090"
-  },
-  {
-    "objectID": "people/권형욱.html#센터-내-연구분야",
-    "href": "people/권형욱.html#센터-내-연구분야",
-    "title": "권형욱",
-    "section": "센터 내 연구분야",
-    "text": "센터 내 연구분야\n\n모기 유전체 DB구축\n자원화\n매개체 생물학적 연구\n화학감각센서개발\n화학감각수용체 기능분석\n매개질병감시\n센터융합연구총괄"
-  },
-  {
-    "objectID": "people/권형욱.html#전공분야",
-    "href": "people/권형욱.html#전공분야",
-    "title": "권형욱",
-    "section": "전공분야",
-    "text": "전공분야\n\n화학감각생물학\n곤충신경생물학\n전기생리학\n무척추동물 뇌과학"
-  },
-  {
-    "objectID": "people/권형욱.html#담당과목",
-    "href": "people/권형욱.html#담당과목",
-    "title": "권형욱",
-    "section": "담당과목",
-    "text": "담당과목\n\n신경생물학\n동물생리학\n비교해부학\n곤충학특론"
-  },
-  {
-    "objectID": "people/배양섭.html#센터-내-연구분야",
-    "href": "people/배양섭.html#센터-내-연구분야",
-    "title": "배양섭",
-    "section": "센터 내 연구분야",
-    "text": "센터 내 연구분야\n\n주요 질병매개 모기 종 분류 체계화\n정밀 형태 분류 체계화"
-  },
-  {
-    "objectID": "people/배양섭.html#전공분야",
-    "href": "people/배양섭.html#전공분야",
-    "title": "배양섭",
-    "section": "전공분야",
-    "text": "전공분야\n\n동물계통분류학 및 곤충생태학"
-  },
-  {
-    "objectID": "people/배양섭.html#담당과목",
-    "href": "people/배양섭.html#담당과목",
-    "title": "배양섭",
-    "section": "담당과목",
-    "text": "담당과목\n\n동물분류학\n곤충학\n진화생물학\n자원동물학"
-  },
-  {
-    "objectID": "people/김길원.html",
-    "href": "people/김길원.html",
-    "title": "김길원",
-    "section": "",
-    "text": "e-mail : kilwon@inu.ac.kr\n전화번호 : 032-835-8358"
-  },
-  {
-    "objectID": "people/김길원.html#센터-내-연구분야",
-    "href": "people/김길원.html#센터-내-연구분야",
-    "title": "김길원",
-    "section": "센터 내 연구분야",
-    "text": "센터 내 연구분야\n\n모기소리\n날개짓 패턴 및 행동 연구"
-  },
-  {
-    "objectID": "people/김길원.html#전공분야",
-    "href": "people/김길원.html#전공분야",
-    "title": "김길원",
-    "section": "전공분야",
-    "text": "전공분야\n\n동물행동생태학"
-  },
-  {
-    "objectID": "people/강동구.html",
-    "href": "people/강동구.html",
-    "title": "강동구",
-    "section": "",
-    "text": "e-mail : dkkang@inu.ac.kr\n전화번호 : 032-835-8094\nHomepage : -"
-  },
-  {
-    "objectID": "people/강동구.html#전공분야",
-    "href": "people/강동구.html#전공분야",
-    "title": "강동구",
-    "section": "전공분야",
-    "text": "전공분야\n생화학 및 나노바이오"
-  },
-  {
-    "objectID": "people/강동구.html#센터-내-연구분야",
-    "href": "people/강동구.html#센터-내-연구분야",
-    "title": "강동구",
-    "section": "센터 내 연구분야",
-    "text": "센터 내 연구분야\n\nMicrofluidics 기반 질병매개체 조기진단법 연구"
-  },
-  {
-    "objectID": "people/강우철.html",
-    "href": "people/강우철.html",
+    "objectID": "people/10_Prof.KWC.html",
+    "href": "people/10_Prof.KWC.html",
     "title": "강우철",
     "section": "",
     "text": "e-mail : bjc97r@inu.ac.kr\n전화번호 : 032-835-8765"
   },
   {
-    "objectID": "people/강우철.html#센터-내-연구분야",
-    "href": "people/강우철.html#센터-내-연구분야",
+    "objectID": "people/10_Prof.KWC.html#센터-내-연구분야",
+    "href": "people/10_Prof.KWC.html#센터-내-연구분야",
     "title": "강우철",
     "section": "센터 내 연구분야",
     "text": "센터 내 연구분야\n\nDeep learning을 이용한 매개곤충 패턴인식"
   },
   {
-    "objectID": "people/강우철.html#주-연구분야",
-    "href": "people/강우철.html#주-연구분야",
+    "objectID": "people/10_Prof.KWC.html#주-연구분야",
+    "href": "people/10_Prof.KWC.html#주-연구분야",
     "title": "강우철",
     "section": "주 연구분야",
     "text": "주 연구분야\n\n임베디드데이터베이스\n운영체제\n분산시스템"
+  },
+  {
+    "objectID": "people/04_Prof.KJK.html",
+    "href": "people/04_Prof.KJK.html",
+    "title": "김재광",
+    "section": "",
+    "text": "e-mail : kjkpj@inu.ac.kr\n전화번호 : 032-835-8241\nHomepage : http://kjkpj2.wixsite.com/plant-metabolism"
+  },
+  {
+    "objectID": "people/04_Prof.KJK.html#센터-내-연구분야",
+    "href": "people/04_Prof.KJK.html#센터-내-연구분야",
+    "title": "김재광",
+    "section": "센터 내 연구분야",
+    "text": "센터 내 연구분야\n\n매개곤충의 대사체 분석"
+  },
+  {
+    "objectID": "people/04_Prof.KJK.html#전공분야",
+    "href": "people/04_Prof.KJK.html#전공분야",
+    "title": "김재광",
+    "section": "전공분야",
+    "text": "전공분야\n\n대사체학"
+  },
+  {
+    "objectID": "people/12_Prof.KJS.html",
+    "href": "people/12_Prof.KJS.html",
+    "title": "권재성",
+    "section": "",
+    "text": "email: jsungkwon@inu.ac.kr\nphone: +82-32-835-8097"
+  },
+  {
+    "objectID": "people/12_Prof.KJS.html#센터-내-연구분야",
+    "href": "people/12_Prof.KJS.html#센터-내-연구분야",
+    "title": "권재성",
+    "section": "센터 내 연구분야",
+    "text": "센터 내 연구분야"
+  },
+  {
+    "objectID": "people/12_Prof.KJS.html#전공분야",
+    "href": "people/12_Prof.KJS.html#전공분야",
+    "title": "권재성",
+    "section": "전공분야",
+    "text": "전공분야"
+  },
+  {
+    "objectID": "people/06_Prof.KDK.html",
+    "href": "people/06_Prof.KDK.html",
+    "title": "강동구",
+    "section": "",
+    "text": "e-mail : dkkang@inu.ac.kr\n전화번호 : 032-835-8094\nHomepage : -"
+  },
+  {
+    "objectID": "people/06_Prof.KDK.html#전공분야",
+    "href": "people/06_Prof.KDK.html#전공분야",
+    "title": "강동구",
+    "section": "전공분야",
+    "text": "전공분야\n생화학 및 나노바이오"
+  },
+  {
+    "objectID": "people/06_Prof.KDK.html#센터-내-연구분야",
+    "href": "people/06_Prof.KDK.html#센터-내-연구분야",
+    "title": "강동구",
+    "section": "센터 내 연구분야",
+    "text": "센터 내 연구분야\n\nMicrofluidics 기반 질병매개체 조기진단법 연구"
+  },
+  {
+    "objectID": "people/01_Prof.BYS.html#센터-내-연구분야",
+    "href": "people/01_Prof.BYS.html#센터-내-연구분야",
+    "title": "배양섭",
+    "section": "센터 내 연구분야",
+    "text": "센터 내 연구분야\n\n주요 질병매개 모기 종 분류 체계화\n정밀 형태 분류 체계화"
+  },
+  {
+    "objectID": "people/01_Prof.BYS.html#전공분야",
+    "href": "people/01_Prof.BYS.html#전공분야",
+    "title": "배양섭",
+    "section": "전공분야",
+    "text": "전공분야\n\n동물계통분류학 및 곤충생태학"
+  },
+  {
+    "objectID": "people/01_Prof.BYS.html#담당과목",
+    "href": "people/01_Prof.BYS.html#담당과목",
+    "title": "배양섭",
+    "section": "담당과목",
+    "text": "담당과목\n\n동물분류학\n곤충학\n진화생물학\n자원동물학"
+  },
+  {
+    "objectID": "people/00_Prof.KHW.html",
+    "href": "people/00_Prof.KHW.html",
+    "title": "권형욱",
+    "section": "",
+    "text": "e-mail : hwkwon@inu.ac.kr\n전화번호 : 032-835-8090"
+  },
+  {
+    "objectID": "people/00_Prof.KHW.html#센터-내-연구분야",
+    "href": "people/00_Prof.KHW.html#센터-내-연구분야",
+    "title": "권형욱",
+    "section": "센터 내 연구분야",
+    "text": "센터 내 연구분야\n\n모기 유전체 DB구축\n자원화\n매개체 생물학적 연구\n화학감각센서개발\n화학감각수용체 기능분석\n매개질병감시\n센터융합연구총괄"
+  },
+  {
+    "objectID": "people/00_Prof.KHW.html#전공분야",
+    "href": "people/00_Prof.KHW.html#전공분야",
+    "title": "권형욱",
+    "section": "전공분야",
+    "text": "전공분야\n\n화학감각생물학\n곤충신경생물학\n전기생리학\n무척추동물 뇌과학"
+  },
+  {
+    "objectID": "people/00_Prof.KHW.html#담당과목",
+    "href": "people/00_Prof.KHW.html#담당과목",
+    "title": "권형욱",
+    "section": "담당과목",
+    "text": "담당과목\n\n신경생물학\n동물생리학\n비교해부학\n곤충학특론"
+  },
+  {
+    "objectID": "people/03_Prof.KKW.html",
+    "href": "people/03_Prof.KKW.html",
+    "title": "김길원",
+    "section": "",
+    "text": "e-mail : kilwon@inu.ac.kr\n전화번호 : 032-835-8358"
+  },
+  {
+    "objectID": "people/03_Prof.KKW.html#센터-내-연구분야",
+    "href": "people/03_Prof.KKW.html#센터-내-연구분야",
+    "title": "김길원",
+    "section": "센터 내 연구분야",
+    "text": "센터 내 연구분야\n\n모기소리\n날개짓 패턴 및 행동 연구"
+  },
+  {
+    "objectID": "people/03_Prof.KKW.html#전공분야",
+    "href": "people/03_Prof.KKW.html#전공분야",
+    "title": "김길원",
+    "section": "전공분야",
+    "text": "전공분야\n\n동물행동생태학"
+  },
+  {
+    "objectID": "people/02_Prof.ASK.html#생명과학부-생명과학전공",
+    "href": "people/02_Prof.ASK.html#생명과학부-생명과학전공",
+    "title": "안순길",
+    "section": "생명과학부 생명과학전공",
+    "text": "생명과학부 생명과학전공\n센터 내 연구분야 : 매개체 유인제/기피제 개발 및 표준화"
+  },
+  {
+    "objectID": "people/09_Prof_CBJ.html",
+    "href": "people/09_Prof_CBJ.html",
+    "title": "최병조",
+    "section": "",
+    "text": "e-mail : bjc97r@inu.ac.kr\n전화번호 : 032-835-8765"
+  },
+  {
+    "objectID": "people/09_Prof_CBJ.html#센터-내-연구분야",
+    "href": "people/09_Prof_CBJ.html#센터-내-연구분야",
+    "title": "최병조",
+    "section": "센터 내 연구분야",
+    "text": "센터 내 연구분야\n\nphotosensor를 이용한 질병매개체 동정법 연구\nsonic 기반 분류 및 동영상/sound 해석"
+  },
+  {
+    "objectID": "people/09_Prof_CBJ.html#주-연구분야",
+    "href": "people/09_Prof_CBJ.html#주-연구분야",
+    "title": "최병조",
+    "section": "주 연구분야",
+    "text": "주 연구분야\n\nOFDM, MC-CDMA, Adaptive modulation"
+  },
+  {
+    "objectID": "people/08_Prof.KST.html",
+    "href": "people/08_Prof.KST.html",
+    "title": "강승택",
+    "section": "",
+    "text": "e-mail : s-kahng@inu.ac.kr\n전화번호 : 032-835-8288\nhompage"
+  },
+  {
+    "objectID": "people/08_Prof.KST.html#센터-내-연구분야",
+    "href": "people/08_Prof.KST.html#센터-내-연구분야",
+    "title": "강승택",
+    "section": "센터 내 연구분야",
+    "text": "센터 내 연구분야\n\nIoT 및 광역망 통신 시스템"
+  },
+  {
+    "objectID": "people/08_Prof.KST.html#주-연구분야",
+    "href": "people/08_Prof.KST.html#주-연구분야",
+    "title": "강승택",
+    "section": "주 연구분야",
+    "text": "주 연구분야\n\n전파공학 및 무선통신"
+  },
+  {
+    "objectID": "people/07_prof_BSK.html",
+    "href": "people/07_prof_BSK.html",
+    "title": "변상균",
+    "section": "",
+    "text": "e-mail : sbyun@inu.ac.kr\n전화번호 : 032-835-8033\nHomepage : https://byunlab.wixsite.com/cglab"
+  },
+  {
+    "objectID": "people/07_prof_BSK.html#센터-내-연구분야",
+    "href": "people/07_prof_BSK.html#센터-내-연구분야",
+    "title": "변상균",
+    "section": "센터 내 연구분야",
+    "text": "센터 내 연구분야\n\n매개곤충 기능성 물질 소재 연구"
+  },
+  {
+    "objectID": "people/07_prof_BSK.html#전공분야",
+    "href": "people/07_prof_BSK.html#전공분야",
+    "title": "변상균",
+    "section": "전공분야",
+    "text": "전공분야\n\n생리활성 기능성 식품소재 연구"
+  },
+  {
+    "objectID": "people/11_Prof.JIN.html#센터-내-연구분야",
+    "href": "people/11_Prof.JIN.html#센터-내-연구분야",
+    "title": "진성훈",
+    "section": "센터 내 연구분야",
+    "text": "센터 내 연구분야\n\nMicrofluidics 기반\n질병매개체 조기진단법 연구"
+  },
+  {
+    "objectID": "people/11_Prof.JIN.html#주-연구분야",
+    "href": "people/11_Prof.JIN.html#주-연구분야",
+    "title": "진성훈",
+    "section": "주 연구분야",
+    "text": "주 연구분야\n\nGas sensor\n센서소재 개발\n\ne-mail : shjin@inu.ac.kr 전화번호 : 032-835-8865 Homepage : http://hmdl.incheon.ac.kr/"
+  },
+  {
+    "objectID": "events/RMarkdown/index.html",
+    "href": "events/RMarkdown/index.html",
+    "title": "Git, R Markdown, and Reproducible Research",
+    "section": "",
+    "text": "git 과 markdown 을 배워서, 본인이 작성한 코드에 대한 설명 및 주석을 달고 관리하는 일은, 실험에서 lab note 를 작성하는 일과 같은 일이라 앞으로 여러분들이, 본인의 실험/시뮬레이션 결과를 정리하는데 도움이 될 것입니다.\n다음과 같은 학습 목표가 있습니다.\n\ngit 이 뭔지 이해하고, 기본적인 사용법을 익힌다\nmarkdown 문서를 작성하는 법을 익힌다.\ngithub 와 markdown 을 통해서 우리 홈페이지를 어떻게 업데이트 하는지 배운다.\n\n\n\n\n일시\n2023년 1월 17일\n\n\n장소\n인천대학교 BLDG #29-315\n\n\n시간\n15:00 PM\n\n\n강사\nDr. Byung-Ju Kim"
   },
   {
     "objectID": "events/Maestro_part3/index.html",
     "href": "events/Maestro_part3/index.html",
     "title": "마에스트로 강의 part #3",
     "section": "",
-    "text": "일시: 2023년 1월 16일\n인천대학교: 29호관 312호"
-  },
-  {
-    "objectID": "Contact.html#찾아오시는-길",
-    "href": "Contact.html#찾아오시는-길",
-    "title": "Center 소개",
-    "section": "찾아오시는 길",
-    "text": "찾아오시는 길\n인천광역시 연수구 아카데미로 119 (송도동, 인천대학교) 29호관 315호"
+    "text": "Maestro Lecture\n\n\n\n\n일시\n2023년 1월 17일\n\n\n장소\n인천대학교 BLDG #29-312\n\n\n시간\n15:00 PM\n\n\n강사\nDr. Zakir Ullah\n\n\n\n지난 두번의 강의에서, Zakir Ullah 박사님은 Maestro 에서,\n\n단백질, chemical 구조를 어떻게 불러와서 준비시키는지\n시뮬레이션을 통해서 바인딩 포켓을 계산해 내는 법을 가르쳐 주셨습니다.\n\n1월 16일까지 대학 중점 과제 연차 보고서 제출이 있기 때문에, 날짜가 바뀌었습니다."
   }
 ]

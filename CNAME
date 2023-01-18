@@ -1,1 +1,7 @@
-crciv.inu.ac.kr
+; <<>> DiG 9.10.6 <<>> crciv.inu.ac.kr +nostats +nocomments +nocmd
+
+;; global options: +cmd
+
+;crciv.inu.ac.kr.		IN	A
+
+crciv.inu.ac.kr.	3600	IN	A	117.16.214.66

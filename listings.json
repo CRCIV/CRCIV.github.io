@@ -9,8 +9,9 @@
   {
     "listing": "/index.html",
     "items": [
-      "/news/post-with-code/index.html",
-      "/news/welcome/index.html",
+      "/news/20230118_CRCIVMAGAZINE/index.html",
+      "/news/20230115_WelcomeDrOrga/index.html",
+      "/news/20230115_HomepageRenewal/index.html",
       "/events/RMarkdown/index.html",
       "/events/Maestro_part3/index.html"
     ]
